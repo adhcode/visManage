@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+    <link rel="stylesheet" href="/styles/login.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><a href="/">LKJ ESTATE</a></div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="menu">
+            <li class="login"><a href="./login.html">Login</a></li>
+            <li class="signup"><a href="./signup.html">Signup</a></li>
+        </ul>
+
+    </nav>
+   
+    <div class="container">
+
+        <div class="banner">
+            <h2>Welcome, Login your Account</h2>
+            <p>Login your resident account to register your guest</p>
+        </div>
+        <form>
+            
+            <div class="field-group">
+            <input type="email" placeholder="Email Address" autocomplete="off" class="input-field">
+            <label for="email"></label>
+            <div class="icon">
+                <i class='bx bx-envelope' ></i>
+            </div>
+        </div>
+        <div class="field-group">
+            <input type="password" placeholder="Password" autocomplete="off" class="input-field">
+            <label for="password"></label>
+            <div class="icon">
+                <i class='bx bx-lock-alt' ></i>
+            </div>
+        </div>
+         <div>
+        <button class="submit">
+            Login
+        </button>
+        <a href="/forms/login.html" class="user"><p>Forgot Password</p></a>
+    </div>
+        </form>
+    </div>
+
+
+</body>
+<script src="/scripts/nav.js"></script>
+</html>

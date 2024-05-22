@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="/styles/book-form.css">
+
+</head>
+<body>
+    <nav>
+        <a href="/"><h1 class="logo">
+            LKJ Estate
+        </h1>
+        </a>
+
+        <div class="user-details">
+            <div class="avatar">
+                   <img src="/avatar.png"/>
+            </div>
+            <div class="user-profile">
+            <div class="user-name">
+              <h1>Babatunde</h1>
+              
+            </div>
+            <div class="user-block">
+             <h1>Block 01</h1>
+             
+           </div>
+         </div>
+ 
+         </div>
+
+    </nav>
+   
+    <div class="container">
+
+        
+
+<div class="wrapper">
+    
+   
+        
+	<div class="header">
+        <div class="header-con">
+        <h2>Fill the FORM below</h2>
+        <p>You will be sent a confirmation message when your reservation has been confirmed</p>
+    </div>
+		<ul>
+			<li class="active form_1_progessbar">
+				<div>
+					<p>1</p>
+				</div>
+			</li>
+			<li class="form_2_progessbar">
+				<div>
+					<p>2</p>
+				</div>
+			</li>
+			
+			</li>
+		</ul>
+	</div>
+	<div class="form_wrap">
+		<div class="form_1 data_info">
+			
+			<form>
+				<div class="form_container">
+					<div class="input_wrap">
+						<label for="name"></label>
+						<input type="text" name="Email Address" class="input-field" id="name" placeholder="Full Name">
+                        <div class="icon">
+                            <i class='bx bx-user'></i>
+                        </div>
+					</div>
+					<div class="input_wrap">
+						<label for="email"></label>
+						<input type="email" name="email" class="input-field" id="email" placeholder="Email Address">
+                        <div class="icon">
+                            <i class='bx bx-envelope' ></i>
+                        </div>
+					</div>
+					<div class="input_wrap">
+						<label for="phone"></label>
+						<input type="tel" name="phone" class="input-field" id="phone" placeholder="Phone Number">
+                        <div class="icon">
+                            <i class='bx bx-phone' ></i>
+                        </div>
+					</div>
+				</div>
+			</form>
+		</div>
+		
+		<div class="form_2 data_info" style="display: none;">
+			
+			<form>
+				<div class="form_container">
+					<div class="input_wrap">
+						<label for="user_name"></label>
+						<input type="date" name="User Name" class="input-field" id="user_name" placeholder="Date">
+                        <div class="icon">
+                            <i class='bx bx-phone' ></i>
+                        </div>
+					</div>
+					<div class="input_wrap">
+						<label for="first_name"></label>
+						<input type="text" name="First Name" class="input-field" id="first_name" placeholder="Time">
+                        <div class="icon">
+                            <i class='bx bx-phone' ></i>
+                        </div>
+					</div>
+					<div class="input_wrap">
+						<label for="last_name"></label>
+						<textarea class="text-field" placeholder="Purpose of Visit"></textarea> 
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="btns_wrap">
+		<div class="common_btns form_1_btns">
+			<button type="button" class="btn_next">Next <span class="icon"><ion-icon name="arrow-forward-sharp"></ion-icon></span></button>
+		</div>
+		
+		<div class="common_btns form_2_btns" style="display: none;">
+			<button type="button" class="btn_back"><span class="icon"><ion-icon name="arrow-back-sharp"></ion-icon></span>Back</button>
+			<button type="button" class="btn_done">Done</button>
+		</div>
+	</div>
+</div>
+
+<div class="modal_wrapper">
+	<div class="shadow"></div>
+	<div class="success_wrap">
+		<span class="modal_icon"><ion-icon name="checkmark-sharp"></ion-icon></span>
+		<p>You have successfully completed the process.</p>
+	</div>
+</div>
+
+    </div>
+   
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
