@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/visitorlog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+</head>
+</head>
+<body>
+    
+    <nav>
+         <div class="sidebar">
+        <a href="/"><h1 class="logo">
+            LKJ Estate
+        </h1>
+        </a>
+
+        <div class="sidebars-nav">
+            
+            <a href="/staff/">
+                <div class="sidebars">
+                
+                <div>
+                    <i class='bx bx-line-chart'></i>
+                </div>
+                <div>
+                    
+            <p>Overview</p>
+            </div>
+        
+            </div>
+        </a>
+
+            <div class="sidebars">
+                <div>
+                    <i class='bx bx-list-ul' ></i>
+                </div>
+                <div>
+            <p>Visitor's Logbook</p>
+            </div>
+            </div>
+            <div class="sidebars">
+                <div>
+                    <i class='bx bx-user' ></i>
+                </div>
+                <div>
+            <p>Profile</p>
+            </div>
+            </div>
+            <div class="sidebars">
+                <div>
+                    <i class='bx bx-log-out' ></i>
+                </div>
+                <div>
+            <p>Logout</p>
+            </div>
+            </div>
+            
+            </div>
+
+    </div>
+
+        
+        
+    </nav>
+
+    <div class="container">
+        <div class="user-details">
+            <div class="avatar">
+                   <img src="/avatar.png"/>
+            </div>
+            <div class="user-profile">
+            <div class="user-name">
+              <h1>Andrew</h1>
+              
+            </div>
+            <div class="user-block">
+             <h1>Staff Account</h1>
+             
+           </div>
+         </div>
+ 
+         </div>
+
+         <div class="main-content">
+               <div class="search-container">
+                     <div class="searchbox">
+                       <input type="text">
+                       <div class="search-button">Search</div>
+                     </div>
+                     
+
+                     <div class="date-search">
+                     <div class="block-search">
+                        <select name="tel" id="" class="select-box">
+                            
+                            <option value="">Block 1</option>
+                            <option value="">Block 2</option>
+                            <option value="">Block 3</option>
+                            <option value="">Block 4</option>
+                            <option value="">Block 5</option>
+                            <option value="">Block 6</option>
+                            <option value="">Block 7</option>
+                            <option value="">Block 8</option>
+                            <option value="">Block 9</option>
+                            <option value="">Block 10</option>
+                            <option value="">Block 11</option>
+                            <option value="">Block 12</option>
+                            <option value="">Block 13</option>
+                            <option value="">Block 14</option>
+                            <option value="">Block 15</option>
+                            <option value="">Block 16</option>
+                            <option value="">Block 17</option>
+                            <option value="">Block 18</option>
+                            <option value="">Block 19</option>
+                            <option value="">MD2041...</option>
+                            <option value="">Block 21</option>
+                            <option value="">Block 22</option>
+                            <option value="">Block 23</option>
+                            <option value="">Block 24</option>
+                            <option value="">Block 25</option>
+                            <option value="">Block 26</option>
+                            <option value="">Block 27</option>
+                            <option value="">Block 28</option>
+                            <option value="">Block 29</option>
+                            <option value="">Block 30</option>
+                            <option value="">Block 31</option>
+                            <option value="">Block 32</option>
+                            <option value="">Block 33</option>
+                            <option value="">Block 34</option>
+                            <option value="">Block 35</option>
+                            <option value="">Block 36</option>
+                            <option value="">Block 37</option>
+                            <option value="">Block 38</option>
+                            <option value="">Block 39</option>
+                            <option value="">Block 40</option>
+                            <option value="">Block 41</option>
+            
+            
+                        </select>
+                     </div>
+                     <div class="date-selector">
+                        <i class='bx bx-calendar'></i>
+                        <p>Today</p>
+                     </div>
+                    </div>
+               </div>
+
+               <div class="tableandfilter">
+                <div class="filter">
+                    <div class="filter-head">
+                    <i class='bx bx-filter-alt' ></i>
+                      <h1>FILTER</h1>
+                    </div>
+
+                    <div class="checkbox">
+                        <label>
+                          <input type="radio" checked name="filters">
+                          All
+                          
+                        </label>
+
+                        <label>
+                            <input type="radio" name="filters" >
+                            Expected
+                            
+                          </label>
+                          <label>
+                            <input type="radio" checked name="filters">
+                            Checked in
+                            
+                          </label>
+                          <label>
+                            <input type="radio" checked name="filters">
+                            Checked out
+                            
+                          </label>
+                    </div>
+                </div>
+
+                <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <i class='bx bx-user'></i>
+                                    Visitor
+                                </th>
+                                <th>
+                                    <i class='bx bx-group'></i>
+                                    Host
+                                </th>
+                                <th>
+                                    <i class='bx bx-user-pin' ></i>
+                                    ID
+                                </th>
+                                <th>
+                                    <i class='bx bx-building'></i>
+                                    Block
+                                </th>
+                                <th>
+                                    <i class='bx bx-time' ></i>
+                                    Check in
+                                </th>
+                                <th>
+                                    <i class='bx bx-time' ></i>
+                                    Check out
+                                </th>
+                                <th>
+                                    <i class='bx bx-timer' ></i>
+                                    Duration
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <td class="name">Adewu...</td>
+                            <td>Dare...</td>
+                            <td>MD2041...</td>
+                            <td>Block20</td>
+                            <td>14:00 <span>WAT</span></td>
+                            <td>15:00 <span>WAT</span></td>
+                            <td>1 Hour</td>
+                        </tbody>
+                        <tbody>
+                            <td class="name">Adewu...</td>
+                            <td>Dare...</td>
+                            <td>MD2041...</td>
+                            <td>Block20</td>
+                            <td><button>Check in</button></td>
+                            <td><button>Check out</button></td>
+                            <td>1 Hour</td>
+                        </tbody>
+                        <tbody>
+                            <td class="name">Adewu...</td>
+                            <td>Dare...</td>
+                            <td>MD2041...</td>
+                            <td>Block20</td>
+                            <td>14:00 <span>WAT</span></td>
+                            <td><button>Check out</button></td>
+                            <td>1 Hour</td>
+                        </tbody>
+                        <tbody>
+                            <td class="name">Adewu...</td>
+                            <td>Dare...</td>
+                            <td>MD2041...</td>
+                            <td>Block20</td>
+                            <td>14:00 <span>WAT</span></td>
+                            <td><button>Check out</button></td>
+                            <td>1 Hour</td>
+                        </tbody>
+                        <tbody>
+                            <td class="name">Adewu...</td>
+                            <td>Dare...</td>
+                            <td>MD2041...</td>
+                            <td>Block20</td>
+                            <td><button>Check out</button></td>
+                            <td><button>Check out</button></td>
+                            <td>1 Hour</td>
+                        </tbody>
+                        <tbody>
+                            <td class="name">Adewu...</td>
+                            <td>Dare...</td>
+                            <td>MD2041...</td>
+                            <td>Block20</td>
+                            <td><button>Check out</button></td>
+                            <td><button>Check out</button></td>
+                            <td>1 Hour</td>
+                        </tbody>
+                        <tbody>
+                            <td class="name">Adewu...</td>
+                            <td>Dare...</td>
+                            <td>MD2041...</td>
+                            <td>Block20</td>
+                            <td>14:00 <span>WAT</span></td>
+                            <td>15:00 <span>WAT</span></td>
+                            <td>1 Hour</td>
+                        </tbody>
+                    </table>
+                    <div class="next">
+            <div><p>1/23</p></div>
+            <button>
+                Next
+            </button>
+        </div>
+                </div>
+
+               </div>
+         </div>
+        
+
+       
+        </div>
+
+
+    
+</body>
+</html>
